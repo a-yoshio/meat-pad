@@ -1,0 +1,13 @@
+spring:
+  mvc:
+    view:
+      prefix:
+      sufix:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/meat
+    username: postgres
+    password: postgres
+
+server:
+  context-path: /meatPat
