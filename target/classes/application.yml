@@ -11,3 +11,4 @@ spring:
 
 server:
   context-path: /meatPat
+security.basic.enabled: false
