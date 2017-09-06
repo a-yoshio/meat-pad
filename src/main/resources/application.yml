@@ -1,14 +1,14 @@
 spring:
   mvc:
     view:
-      prefix:
-      sufix:
+      prefix: /WEB-INF/views/
+      sufix: .jsp
   datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/meat
     username: postgres
     password: postgres
-
 server:
   context-path: /meatPat
+
 security.basic.enabled: false
