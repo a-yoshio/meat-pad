@@ -1,4 +1,4 @@
-package jp.co.moover.meat_project;
+package jp.co.moover.meat_project.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

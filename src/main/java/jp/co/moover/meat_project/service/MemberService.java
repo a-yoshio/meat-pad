@@ -3,8 +3,8 @@ package jp.co.moover.meat_project.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import jp.co.moover.meat_project.MemberRepository;
 import jp.co.moover.meat_project.domain.Member;
+import jp.co.moover.meat_project.repository.MemberRepository;
 
 /**
  * 会員データをDBとやりとりする.

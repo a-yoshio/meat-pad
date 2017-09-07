@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+ body{
+ 	display: block;
+ 	font-family: cursive;
+ 	color: #db7093;
+ 	background-color: #fffacd;
+ 	}
+ 	
+ #title{
+ 	display: block;
+ 	width: 80%;
+ 	margin: 0 10% 0 10%;
+ }
+ 
+ .block{
+ 	width: 80%;
+ 	margin: 0 10% 0 10%;;
+ 	padding: 10%; 
+ 	text-align: center;
+ 	border: groove #d2b48c 3px;
+ 	background-color: #ffffe0;
+ }
