@@ -1,23 +1,60 @@
 @charset "UTF-8";
 
  body{
- 	display: block;
  	font-family: cursive;
  	color: #db7093;
  	background-color: #fffacd;
  	}
- 	
- #title{
- 	display: block;
- 	width: 80%;
- 	margin: 0 10% 0 10%;
+ 
+ .header{
+ 	display: box;
+ 	width: 40%;
+ 	height: 50px;
  }
  
- .block{
- 	width: 80%;
- 	margin: 0 10% 0 10%;;
- 	padding: 10%; 
+ .container{
+ 	display: block;
+ 	margin: 0 5%;
  	text-align: center;
- 	border: groove #d2b48c 3px;
- 	background-color: #ffffe0;
  }
+ 
+ h2{
+ 	color: #ff7f50;
+ 	background-color: #eee8aa;
+ 	margin-top: 0;
+ 	letter-spacing: 3px;
+ }
+ 
+ h3{
+ 	color: #8b0000;
+ }
+ .title-img{
+ 	margin-left:0;
+ }
+ 
+ .said-menu{
+ 	width: 20%;
+ 	height: 530px;
+ 	border: solid #e6dca1 3px;
+ 	background-color: #ffffe0;
+ 	margin-left: 0;
+ 	float: left;
+ 	text-align: center;
+ }
+ 
+ .main{
+ 	width: 60%;
+ 	float: left;
+ 	height: 530px;
+ 	margin-left: 10px;
+ 	text-align: center;
+ }
+ 
+ .illust-map-group{
+ 	display: box;
+ }
+ 
+.illust{
+	height: 200px;
+	width: auto;
+} 

@@ -1,5 +1,6 @@
 package jp.co.moover.meat_project.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,7 @@ import jp.co.moover.meat_project.repository.MeatRepository;
 
 /**
  * お肉の検索を行うためのサービス.
- * @author chai
+ * @author atsuko.yoshino
  *
  */
 @Service
@@ -24,7 +25,17 @@ public class MeatSearchService {
 	 * @return　取得したデータ
 	 */
 	public List<Meat> findByKeyWord(String keyWord) {
-		return repository.findByKeyWord(keyWord);
+		String keyList[]= keyWord.split(" ");
+		List<Meat> getMeatList= new ArrayList<>();
+		for(String key: keyList) {
+			List<Meat> meatList= repository.findByKeyWord(key);
+			for(Meat meat:meatList) {
+				if(!(getMeatList.contains(meat))) {
+					getMeatList.add(meat);
+				}
+			}
+		}
+		return getMeatList;
 	}
 
 	
